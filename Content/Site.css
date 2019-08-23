@@ -4,6 +4,27 @@ body {
     padding-bottom: 20px;
 }
 
+.miload {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black; /* Black background with opacity */
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	z-index: 2; /* Specify a stack order in case you're using a different order for other 
+	/*Cursor*/
+	cursor: wait;
+}
+.loadimagen {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {

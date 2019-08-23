@@ -113,6 +113,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Ejemplo1.aspx" />
+    <Content Include="Ejemplo2.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -183,6 +185,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo1.aspx.cs">
+      <DependentUpon>Ejemplo1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo1.aspx.designer.cs">
+      <DependentUpon>Ejemplo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo2.aspx.cs">
+      <DependentUpon>Ejemplo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejemplo2.aspx.designer.cs">
+      <DependentUpon>Ejemplo2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
